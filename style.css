@@ -194,6 +194,7 @@ footer > p {
     justify-content: center;
     align-items: center;
     font-family: var(--fonte-padrao);
+
 }
 
 footer > p > a {
@@ -233,5 +234,10 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
-    padding: 0px 15px;
+}
+
+aside li {
+    font-size: 0.87em;
+    width: 185px;
+    text-align: left;
 }
