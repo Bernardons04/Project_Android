@@ -40,7 +40,7 @@ header {
     padding-top: 25px;
     text-align: center;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 410px;
 }
 
 header > nav {
@@ -115,7 +115,7 @@ main {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 410px;
     margin: auto;
     margin-bottom: 30px;
     text-indent: 40px;
@@ -191,9 +191,8 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 410px;
 }
 
 footer > p > a {
