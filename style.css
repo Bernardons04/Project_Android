@@ -93,7 +93,7 @@ nav > a:hover {
 
 div.video {
     background-color: var(--cor5);
-    margin: 15px -42px 30px -42px;
+    margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
@@ -112,7 +112,6 @@ main {
     box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.418);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding: 20px;
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
@@ -140,7 +139,7 @@ main p {
     font-family: var(--fonte-padrao);
     line-height: 1.8em;
     font-size: 1em;
-    text-align: justify;
+    text-align: left;
 }
 
 main img {
@@ -177,30 +176,26 @@ main abbr {
 }
 
 article {
-    margin-left: 22px;
-    margin-right: 22px;    
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+#lastp {
+    margin-top: 10px;
 }
 
 footer {
-    background-color: rgb(8, 79, 38);
+    background-color: var(--cor5);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-}
-
-footer > p {
-    font-size: 1.2em;
-    height: 22px;
-    margin: 0px;
-    padding: 0px;
-    font-family: var(--fonte-padrao);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 }
 
 footer > p > a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 footer > p > a:hover {
@@ -209,14 +204,11 @@ footer > p > a:hover {
 
 aside > h3{
     background-color: var(--cor3);
-    margin-top: 20px;
     padding: 10px;
     color: white;
-    text-indent: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: var(--fonte-padrao);
-    font-size: 1.4em;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0px -10px;
+
 }
 
 aside > p {
@@ -228,16 +220,12 @@ aside > p {
 aside {
     background-color: var(--cor0);
     border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
 aside > ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
-}
-
-aside li {
-    font-size: 0.87em;
-    width: 185px;
-    text-align: left;
 }
